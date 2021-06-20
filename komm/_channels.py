@@ -68,7 +68,7 @@ class AWGNChannel:
 
     @signal_power.setter
     def signal_power(self, value):
-        if value!='measured'
+        if value=='measured'
             self._signal_power = np.linalg.norm(modulated_signal,ord=2)
         else:
             self._signal_power = float(value)
